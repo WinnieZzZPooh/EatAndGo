@@ -13,6 +13,7 @@
     "@expo-google-fonts/lato": "^0.2.2",
     "@expo-google-fonts/oswald": "^0.2.2",
     "@expo/vector-icons": "^13.0.0",
+    "@googlemaps/google-maps-services-js": "^3.3.26",
     "@react-native-async-storage/async-storage": "react-native-async-storage/async-storage",
     "@react-native-masked-view/masked-view": "0.2.7",
     "@react-navigation/bottom-tabs": "^6.5.0",
