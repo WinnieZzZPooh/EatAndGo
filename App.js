@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react' 
 import { StatusBar as ExpoStatusBar } from 'expo-status-bar'
 import { ThemeProvider } from 'styled-components/native'
 import { getApps, initializeApp } from 'firebase/app'
@@ -13,13 +13,13 @@ import { Navigation } from './src/infrastructure/navigation'
 import { AuthenticationContextProvider } from './src/services/authentication/authentication.context'
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyAG_uN631rLMYwLf9K7pUq_URO3OWBGviU',
-  authDomain: 'mealstogo-82f6a.firebaseapp.com',
-  projectId: 'mealstogo-82f6a',
-  storageBucket: 'mealstogo-82f6a.appspot.com',
-  messagingSenderId: '444458840224',
-  appId: '1:444458840224:web:59032ae629d2cc44c359c5',
-  measurementId: 'G-L688LWDC6T'
+  apiKey: 'AIzaSyA0594HwEhXIp2M7nsKYDfS1VjvTRocJeE',
+  authDomain: 'scoutx-1523612790305.firebaseapp.com',
+  databaseURL: 'https://scoutx-1523612790305.firebaseio.com',
+  projectId: 'scoutx-1523612790305',
+  storageBucket: 'scoutx-1523612790305.appspot.com',
+  messagingSenderId: '387871909001',
+  appId: '1:387871909001:web:75e44f946acf41f8d31258'
 }
 
 if (!getApps().length) {
